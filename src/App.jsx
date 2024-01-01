@@ -1,8 +1,11 @@
+import FormLogin from './components/Fragments/FormLogin';
+import LoginPage from './pages/login';
+import RegisterPage from './pages/register';
+
 function App() {
   return (
-    <>
-      <p className="text-6xl underline text-red-900">tailwind oke</p>
-    </>
+    // <LoginPage />
+    <RegisterPage />
   );
 }
 
